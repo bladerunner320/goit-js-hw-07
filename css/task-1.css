@@ -1,0 +1,33 @@
+.item {
+    background: #F6F6FE;
+    padding: 16px;
+    margin-bottom: 16px;
+    width: 392px;
+    color: #2E2F42;
+    border-radius: 8px;
+}
+
+.item h2 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+.item ul li {
+    font-size: 16px;
+    padding: 8px 0 8px 16px;
+    border: solid 1px #808080;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.item ul li:hover {
+    border: solid 1px #2E2F42;
+}
+
+ul#categories {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+}
